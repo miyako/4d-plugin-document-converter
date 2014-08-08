@@ -3,6 +3,8 @@
 
 Convert different styled-text documents. Simplified version of [textutil] (https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/textutil.1.html).
 
+Source and destination formats can be, rtf, doc, docx, odt, wordml (xml), txt.
+
 Example
 -------
 
