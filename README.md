@@ -1,7 +1,7 @@
 4d-plugin-document-convert
 ==========================
 
-Convert different styled-text documents. Simplified version of textutil.
+Convert different styled-text documents. Simplified version of [textutil] (https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/textutil.1.html).
 
 Example
 -------
