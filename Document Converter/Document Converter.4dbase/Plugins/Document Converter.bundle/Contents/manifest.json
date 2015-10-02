@@ -1,0 +1,1 @@
+﻿{"name":"Document Converter","id":20000,"commands":[{"theme":"Document Converter","syntax":"Convert document(&O;&L;&L;&T):O"},{"theme":"Document Converter","syntax":"SET_ENVIRONMENT_VARIABLE(&T;&T)"},{"theme":"Document Converter","syntax":"Get_environment_variable(&T):T"}]}
