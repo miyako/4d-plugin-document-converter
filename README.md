@@ -5,6 +5,12 @@ Convert different styled-text documents. Simplified version of [textutil] (https
 
 Source and destination formats can be rtf, doc, docx, odt, wordml (extension xml) or txt.
 
+##Platform
+
+| carbon | cocoa | win32 | win64 |
+|:------:|:-----:|:---------:|:---------:|
+|🆗|🆗|🚫|🚫|
+
 Update
 ---
 Added ```SET_ENVIRONMENT_VARIABLE``` and ```Get_environment_variable```.
