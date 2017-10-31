@@ -19,7 +19,7 @@ Simplified version of [textutil](https://developer.apple.com/library/mac/documen
 
 ### Specification
 
-Uses [initWithData:options:documentAttributes:error:](https://developer.apple.com/documentation/foundation/nsattributedstring/1524613-initwithdata?language=objc), which seems to blocks execution unless called in the main thread (maybe because of WebKit?).
+Uses [initWithData:options:documentAttributes:error:](https://developer.apple.com/documentation/foundation/nsattributedstring/1524613-initwithdata?language=objc), in the main thread for HTML import. Timeout is ``60`` seconds.
 
 ## Syntax
 
