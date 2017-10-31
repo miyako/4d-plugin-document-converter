@@ -2,4 +2,5 @@
 // Prefix header for all source files of the '4D Plugin' target in the '4D Plugin' project.
 //
 
-#include <Carbon/Carbon.h>
+#import <AppKit/AppKit.h>
+#import <Carbon/Carbon.h>
