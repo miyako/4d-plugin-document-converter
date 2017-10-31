@@ -88,3 +88,5 @@ DOC_BASE_URL baseURL (string)
 DOC_TIMEOUT timeout (number)
 DOC_TEXT_SIZE_MULTIPLIER textSizeMultiplier (number)
 ```
+
+``DOC_BASE_URL``, ``DOC_TIMEOUT``, ``DOC_TEXT_SIZE_MULTIPLIER`` apply to ``src``. All other apply to ``dst``.
