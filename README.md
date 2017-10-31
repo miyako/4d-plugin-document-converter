@@ -19,7 +19,7 @@ Simplified version of [textutil](https://developer.apple.com/library/mac/documen
 
 ### Specification
 
-The [initWithData:options:documentAttributes:error:](https://developer.apple.com/documentation/foundation/nsattributedstring/1524613-initwithdata?language=objc) method is called in the main thread for ``HTML`` import. Default timeout is ``60`` seconds.
+The [initWithData:options:documentAttributes:error:](https://developer.apple.com/documentation/foundation/nsattributedstring/1524613-initwithdata?language=objc) method is called in the main thread for ``HTML`` or ``WEBARCHIVE`` import. Default timeout is ``60`` seconds.
 
 ## Syntax
 
