@@ -19,7 +19,7 @@ Simplified version of [textutil](https://developer.apple.com/library/mac/documen
 
 ### Specification
 
-Uses [initWithData:options:documentAttributes:error:](https://developer.apple.com/documentation/foundation/nsattributedstring/1524613-initwithdata?language=objc) in the main thread for HTML import. Timeout is ``60`` seconds.
+The [initWithData:options:documentAttributes:error:](https://developer.apple.com/documentation/foundation/nsattributedstring/1524613-initwithdata?language=objc) method is called in the main thread for ``HTML`` import. Default timeout is ``60`` seconds.
 
 ## Syntax
 
@@ -64,31 +64,27 @@ DOC_TITLE title (string)
 DOC_SUBJECT subject (string)
 DOC_CATEGORY category (string)
 DOC_COMMENT comment (string)
-
 DOC_TEXT_ENCODING_NAME textEncodingName (string)
-
 DOC_TOP_MARGIN topMargin (number, in points)
 DOC_LEFT_MARGIN leftMargin (number, in points)
 DOC_BOTTOM_MARGIN bottomMargin (number, in points)
 DOC_RIGHT_MARGIN rightMargin (number, in points)
-
 DOC_CREATION_TIME creationTime (dateString)
 DOC_MODIFICATION_DATE modificationDate (dateString)
-
 DOC_CONVERTED converted (number, 1 or 0)
 DOC_READ_ONLY readOnly (number, 1 or 0)
-
 DOC_VIEW_ZOOM viewZoom (number, 100=100%)
 DOC_VIEW_SIZE viewSize ([number=width, number=height])
 DOC_VIEW_MODE viewMode (number, 1=paperSize or 0=normal)
-
 DOC_PAPER_SIZE paperSize ([number=width, number=height])
 DOC_BACKGROUND_COLOR backgroundColor ([number=red, number=green, number=blue, number=alpha], device)
-
 DOC_EXCLUDED_ELEMENTS excludedElements (string array)
 DOC_HYPHENATION_FACTOR hyphenationFactor (number,  0=off to 1=full)
 DOC_KEYWORDS keywords (string array)
 DOC_DEFAULT_TAB_INTERVAL defaultTabInterval (number)
 DOC_PREFIX_SPACES prefixSpaces (number)
 DOC_COCOA_VERSION cocoaVersion (number)
+DOC_BASE_URL baseURL (string)
+DOC_TIMEOUT timeout (number)
+DOC_TEXT_SIZE_MULTIPLIER textSizeMultiplier (number)
 ```
