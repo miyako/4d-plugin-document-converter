@@ -5,6 +5,10 @@ Convert different styled-text documents. Simplified version of [textutil](https:
 
 Source and destination formats can be rtf, doc, docx, odt, wordml (extension xml) or txt.
 
+* Previous branches
+
+[v1](https://github.com/miyako/4d-plugin-document-converter/tree/v1)
+
 ### Platform
 
 | carbon | cocoa | win32 | win64 |
