@@ -90,3 +90,84 @@ DOC_TEXT_SIZE_MULTIPLIER textSizeMultiplier (number)
 ```
 
 ``DOC_BASE_URL``, ``DOC_TIMEOUT``, ``DOC_TEXT_SIZE_MULTIPLIER`` apply to ``src``. All other apply to ``dst``.
+
+## Examples
+
+* HTML to RTF
+
+```
+C_OBJECT($options)
+
+OB SET($options;DOC_TIMEOUT;60)
+
+$path:=Get 4D folder(Current resources folder)+"sample.webarchive"
+DOCUMENT TO BLOB($path;$src)
+
+$dst:=Convert document ($src;Document format WEBARCHIVE;Document format RTF;JSON Stringify($options))
+
+$path:=Get 4D folder(Current resources folder)+"sample.rtf"
+BLOB TO DOCUMENT($path;$dst)
+```
+
+* RTF to TXT
+
+```
+C_OBJECT($options)
+
+$path:=Get 4D folder(Current resources folder)+"sample.rtf"
+DOCUMENT TO BLOB($path;$src)
+
+$dst:=Convert document ($src;Document format RTF;Document format TXT;JSON Stringify($options))
+
+$path:=Get 4D folder(Current resources folder)+"sample.txt"
+BLOB TO DOCUMENT($path;$dst)
+```
+
+* RTF to HTML
+
+```
+C_OBJECT($options)
+
+  //html meta tags
+OB SET($options;\
+DOC_TIMEOUT;60;\
+DOC_AUTHOR;"__author__";\
+DOC_COPYRIGHT;"__copyright__";\
+DOC_COMPANY;"__company__";\
+DOC_MANAGER;"__manager__";\
+DOC_EDITOR;"__editor__";\
+DOC_TITLE;"__title__";\
+DOC_SUBJECT;"__subject__";\
+DOC_CATEGORY;"__category__";\
+DOC_COMMENT;"__comment__";\
+DOC_TEXT_ENCODING_NAME;"utf-8"\
+)
+ARRAY TEXT($keywords;0)
+GET TEXT KEYWORDS("The quick brown fox jumps over the lazy dog";$keywords)
+OB SET ARRAY($options;DOC_KEYWORDS;$keywords)
+
+  //background color
+C_OBJECT($color)
+OB SET($color;"red";1;"green";0;"blue";0.5;"alpha";1)
+OB SET($options;DOC_BACKGROUND_COLOR;$color)
+
+  //dates
+OB SET($options;DOC_CREATION_TIME;String(Current date;ISO date GMT;Current time))
+OB SET($options;DOC_MODIFICATION_DATE;String(Current date;ISO date;Current time))
+
+  //sizes
+  //C_OBJECT($size)
+  //OB SET($size;"width";100;"height";100)
+  //OB SET($options;DOC_PAPER_SIZE;$size;DOC_VIEW_SIZE;$size)
+
+  //URL
+  //OB SET($options;DOC_BASE_URL;"https://developer.apple.com/")
+
+$path:=Get 4D folder(Current resources folder)+"sample.rtf"
+DOCUMENT TO BLOB($path;$src)
+
+$dst:=Convert document ($src;Document format RTF;Document format HTML;JSON Stringify($options))
+
+$path:=Get 4D folder(Current resources folder)+"sample.html"
+BLOB TO DOCUMENT($path;$dst)
+```
