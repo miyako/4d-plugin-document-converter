@@ -3,9 +3,7 @@
 
 Simplified version of [textutil](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/textutil.1.html)
 
-* Branches
-
-[v1](https://github.com/miyako/4d-plugin-document-converter/tree/v1)
+There is also an older [v1](https://github.com/miyako/4d-plugin-document-converter/tree/v1) branch
 
 ### Platform
 
