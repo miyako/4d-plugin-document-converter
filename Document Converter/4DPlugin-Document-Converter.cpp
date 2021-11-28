@@ -35,6 +35,7 @@ void PluginMain(PA_long32 selector, PA_PluginParameters params) {
 
 #pragma mark -
 
+#if VERSIONMAC
 void parseData(ConverterContext *context)
 {
     NSError *error = nil;
@@ -66,12 +67,13 @@ void parseData(ConverterContext *context)
     }
 
 }
-
-void Convert_document(PA_PluginParameters params) {
+#endif
+static void Convert_document(PA_PluginParameters params) {
 
     sLONG_PTR *pResult = (sLONG_PTR *)params->fResult;
     PackagePtr pParams = (PackagePtr)params->fParameters;
     
+#if VERSIONMAC
     @autoreleasepool
     {
         int src_fmt = (int)PA_GetLongParameter(params, 2);
@@ -439,11 +441,14 @@ void Convert_document(PA_PluginParameters params) {
                 {
                     if([dst length])
                     {
+                        PA_ReturnBlob(params, (void *)[dst bytes], (PA_long32)[dst length]);
+                        /*
                         PA_Handle *hReturnValue = (PA_Handle *)pResult;
                         PA_Handle d = PA_NewHandle((PA_long32)[dst length]);
                         PA_MoveBlock((char *)[dst bytes], PA_LockHandle(d), (unsigned int)[dst length]);
                         PA_UnlockHandle(d);
                         *hReturnValue = d;
+                        */
                     }//dst.length
                     
                 }//dst (we don't own this object, don't release it)
@@ -457,6 +462,7 @@ void Convert_document(PA_PluginParameters params) {
         }//hParam1
         
     }//autoreleasepool
-
+#else
+    PA_ReturnBlob(params, (void *)"", 0);
+#endif
 }
-

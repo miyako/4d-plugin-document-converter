@@ -17,6 +17,8 @@
 
 #include "C_TEXT.h"
 
+#if VERSIONMAC
+
 #pragma mark -
 
 #define Document_format_TXT 0
@@ -37,6 +39,8 @@ typedef struct
     NSDictionary *dst_options;
 } ConverterContext;
 
-void Convert_document(PA_PluginParameters params);
+#endif
+
+static void Convert_document(PA_PluginParameters params);
 
 #endif /* PLUGIN_DOCUMENT_CONVERTER_H */
