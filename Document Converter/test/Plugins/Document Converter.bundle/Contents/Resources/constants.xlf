@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<xliff version="1.0" xmlns:d4="http://www.4d.com/d4-ns">
+    <header>
+        <note>Document Converter</note>
+    </header>
+    <group resname="themes">
+        <trans-unit id="" resname="66B0D82198F84AF0BCA8A99941B1AC0E" translate="no">
+            <source>Document Converter</source>
+        </trans-unit>
+    </group>
+    <group restype="x-4DK#" d4:groupName="66B0D82198F84AF0BCA8A99941B1AC0E">
+        <trans-unit d4:value="0:L" id="66B0D82198F84AF0BCA8A99941B1AC0E.1">
+            <source>Document format TXT</source>
+        </trans-unit>
+        <trans-unit d4:value="1:L" id="66B0D82198F84AF0BCA8A99941B1AC0E.2">
+            <source>Document format RTF</source>
+        </trans-unit>
+        <trans-unit d4:value="2:L" id="66B0D82198F84AF0BCA8A99941B1AC0E.3">
+            <source>Document format RTFD</source>
+        </trans-unit>
+        <trans-unit d4:value="3:L" id="66B0D82198F84AF0BCA8A99941B1AC0E.4">
+            <source>Document format HTML</source>
+        </trans-unit>
+        <trans-unit d4:value="4:L" id="66B0D82198F84AF0BCA8A99941B1AC0E.5">
+            <source>Document format DOC</source>
+        </trans-unit>
+        <trans-unit d4:value="5:L" id="66B0D82198F84AF0BCA8A99941B1AC0E.6">
+            <source>Document format DOCX</source>
+        </trans-unit>
+        <trans-unit d4:value="7:L" id="66B0D82198F84AF0BCA8A99941B1AC0E.7">
+            <source>Document format WORDML</source>
+        </trans-unit>
+        <trans-unit d4:value="8:L" id="66B0D82198F84AF0BCA8A99941B1AC0E.8">
+            <source>Document format WEBARCHIVE</source>
+        </trans-unit>
+    </group>
+    <group resname="themes">
+        <trans-unit id="" resname="186C319CE53545B990DC9FAB381B7E9D" translate="no">
+            <source>Document Converter Attributes</source>
+        </trans-unit>
+    </group>
+    <group restype="x-4DK#" d4:groupName="186C319CE53545B990DC9FAB381B7E9D">
+        <trans-unit d4:value="author:S" id="186C319CE53545B990DC9FAB381B7E9D.1">
+            <source>DOC_AUTHOR</source>
+        </trans-unit>
+        <trans-unit d4:value="comment:S" id="186C319CE53545B990DC9FAB381B7E9D.2">
+            <source>DOC_COMMENT</source>
+        </trans-unit>
+        <trans-unit d4:value="company:S" id="186C319CE53545B990DC9FAB381B7E9D.3">
+            <source>DOC_COMPANY</source>
+        </trans-unit>
+        <trans-unit d4:value="converted:S" id="186C319CE53545B990DC9FAB381B7E9D.4">
+            <source>DOC_CONVERTED</source>
+        </trans-unit>
+        <trans-unit d4:value="copyright:S" id="186C319CE53545B990DC9FAB381B7E9D.5">
+            <source>DOC_COPYRIGHT</source>
+        </trans-unit>
+        <trans-unit d4:value="creationTime:S" id="186C319CE53545B990DC9FAB381B7E9D.6">
+            <source>DOC_CREATION_TIME</source>
+        </trans-unit>
+        <trans-unit d4:value="defaultTabInterval:S" id="186C319CE53545B990DC9FAB381B7E9D.7">
+            <source>DOC_DEFAULT_TAB_INTERVAL</source>
+        </trans-unit>
+        <trans-unit d4:value="editor:S" id="186C319CE53545B990DC9FAB381B7E9D.8">
+            <source>DOC_EDITOR</source>
+        </trans-unit>
+        <trans-unit d4:value="excludedElements:S" id="186C319CE53545B990DC9FAB381B7E9D.9">
+            <source>DOC_EXCLUDED_ELEMENTS</source>
+        </trans-unit>
+        <trans-unit d4:value="hyphenationFactor:S" id="186C319CE53545B990DC9FAB381B7E9D.10">
+            <source>DOC_HYPHENATION_FACTOR</source>
+        </trans-unit>
+        <trans-unit d4:value="keywords:S" id="186C319CE53545B990DC9FAB381B7E9D.11">
+            <source>DOC_KEYWORDS</source>
+        </trans-unit>
+        <trans-unit d4:value="leftMargin:S" id="186C319CE53545B990DC9FAB381B7E9D.12">
+            <source>DOC_LEFT_MARGIN</source>
+        </trans-unit>
+        <trans-unit d4:value="manager:S" id="186C319CE53545B990DC9FAB381B7E9D.13">
+            <source>DOC_MANAGER</source>
+        </trans-unit>
+        <trans-unit d4:value="modificationDate:S" id="186C319CE53545B990DC9FAB381B7E9D.14">
+            <source>DOC_MODIFICATION_DATE</source>
+        </trans-unit>
+        <trans-unit d4:value="viewZoom:S" id="186C319CE53545B990DC9FAB381B7E9D.15">
+            <source>DOC_VIEW_ZOOM</source>
+        </trans-unit>
+        <trans-unit d4:value="viewSize:S" id="186C319CE53545B990DC9FAB381B7E9D.16">
+            <source>DOC_VIEW_SIZE</source>
+        </trans-unit>
+        <trans-unit d4:value="viewMode:S" id="186C319CE53545B990DC9FAB381B7E9D.17">
+            <source>DOC_VIEW_MODE</source>
+        </trans-unit>
+        <trans-unit d4:value="topMargin:S" id="186C319CE53545B990DC9FAB381B7E9D.18">
+            <source>DOC_TOP_MARGIN</source>
+        </trans-unit>
+        <trans-unit d4:value="title:S" id="186C319CE53545B990DC9FAB381B7E9D.19">
+            <source>DOC_TITLE</source>
+        </trans-unit>
+        <trans-unit d4:value="subject:S" id="186C319CE53545B990DC9FAB381B7E9D.20">
+            <source>DOC_SUBJECT</source>
+        </trans-unit>
+        <trans-unit d4:value="rightMargin:S" id="186C319CE53545B990DC9FAB381B7E9D.21">
+            <source>DOC_RIGHT_MARGIN</source>
+        </trans-unit>
+        <trans-unit d4:value="readOnly:S" id="186C319CE53545B990DC9FAB381B7E9D.22">
+            <source>DOC_READ_ONLY</source>
+        </trans-unit>
+        <trans-unit d4:value="prefixSpaces:S" id="186C319CE53545B990DC9FAB381B7E9D.23">
+            <source>DOC_PREFIX_SPACES</source>
+        </trans-unit>
+        <trans-unit d4:value="paperSize:S" id="186C319CE53545B990DC9FAB381B7E9D.24">
+            <source>DOC_PAPER_SIZE</source>
+        </trans-unit>
+        <trans-unit d4:value="baseURL:S" id="186C319CE53545B990DC9FAB381B7E9D.25">
+            <source>DOC_BASE_URL</source>
+        </trans-unit>
+        <trans-unit d4:value="timeout:S" id="186C319CE53545B990DC9FAB381B7E9D.26">
+            <source>DOC_TIMEOUT</source>
+        </trans-unit>
+        <trans-unit d4:value="textSizeMultiplier:S" id="186C319CE53545B990DC9FAB381B7E9D.27">
+            <source>DOC_TEXT_SIZE_MULTIPLIER</source>
+        </trans-unit>
+        <trans-unit d4:value="backgroundColor:S" id="186C319CE53545B990DC9FAB381B7E9D.28">
+            <source>DOC_BACKGROUND_COLOR</source>
+        </trans-unit>
+        <trans-unit d4:value="bottomMargin:S" id="186C319CE53545B990DC9FAB381B7E9D.29">
+            <source>DOC_BOTTOM_MARGIN</source>
+        </trans-unit>
+        <trans-unit d4:value="category:S" id="186C319CE53545B990DC9FAB381B7E9D.30">
+            <source>DOC_CATEGORY</source>
+        </trans-unit>
+        <trans-unit d4:value="textEncodingName:S" id="186C319CE53545B990DC9FAB381B7E9D.31">
+            <source>DOC_TEXT_ENCODING_NAME</source>
+        </trans-unit>
+        <trans-unit d4:value="cocoaVersion:S" id="186C319CE53545B990DC9FAB381B7E9D.32">
+            <source>DOC_COCOA_VERSION</source>
+        </trans-unit>
+    </group>
+</xliff>
