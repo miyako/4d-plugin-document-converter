@@ -92,7 +92,7 @@ OB SET($options;DOC_TIMEOUT;60)
 $path:=Get 4D folder(Current resources folder)+"sample.webarchive"
 DOCUMENT TO BLOB($path;$src)
 
-$dst:=Convert document ($src;Document format WEBARCHIVE;Document format RTF;JSON Stringify($options))
+$dst:=Convert document ($src;Document format WEBARCHIVE;Document format RTF;$options)
 
 $path:=Get 4D folder(Current resources folder)+"sample.rtf"
 BLOB TO DOCUMENT($path;$dst)
@@ -106,7 +106,7 @@ C_OBJECT($options)
 $path:=Get 4D folder(Current resources folder)+"sample.rtf"
 DOCUMENT TO BLOB($path;$src)
 
-$dst:=Convert document ($src;Document format RTF;Document format TXT;JSON Stringify($options))
+$dst:=Convert document ($src;Document format RTF;Document format TXT;$options)
 
 $path:=Get 4D folder(Current resources folder)+"sample.txt"
 BLOB TO DOCUMENT($path;$dst)
@@ -155,7 +155,7 @@ OB SET($options;DOC_MODIFICATION_DATE;String(Current date;ISO date;Current time)
 $path:=Get 4D folder(Current resources folder)+"sample.rtf"
 DOCUMENT TO BLOB($path;$src)
 
-$dst:=Convert document ($src;Document format RTF;Document format HTML;JSON Stringify($options))
+$dst:=Convert document ($src;Document format RTF;Document format HTML;$options)
 
 $path:=Get 4D folder(Current resources folder)+"sample.html"
 BLOB TO DOCUMENT($path;$dst)
