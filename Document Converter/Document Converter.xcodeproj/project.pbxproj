@@ -330,7 +330,11 @@
 					"$(PROJECT_DIR)/a",
 				);
 				LIBRARY_STYLE = Bundle;
+<<<<<<< HEAD
 				MARKETING_VERSION = 2.0.2;
+=======
+				MARKETING_VERSION = 2.1.0;
+>>>>>>> e90dc36219ff2d7ed079e04457d6bfda53a67ec1
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
@@ -381,7 +385,11 @@
 					"$(PROJECT_DIR)/a",
 				);
 				LIBRARY_STYLE = Bundle;
+<<<<<<< HEAD
 				MARKETING_VERSION = 2.0.2;
+=======
+				MARKETING_VERSION = 2.1.0;
+>>>>>>> e90dc36219ff2d7ed079e04457d6bfda53a67ec1
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
@@ -430,7 +438,11 @@
 					"$(PROJECT_DIR)/a",
 				);
 				LIBRARY_STYLE = Bundle;
+<<<<<<< HEAD
 				MARKETING_VERSION = 2.0.2;
+=======
+				MARKETING_VERSION = 2.1.0;
+>>>>>>> e90dc36219ff2d7ed079e04457d6bfda53a67ec1
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";

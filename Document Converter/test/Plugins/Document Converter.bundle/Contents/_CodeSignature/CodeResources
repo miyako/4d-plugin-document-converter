@@ -8,7 +8,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
+<<<<<<< HEAD
 			WXm9VFpGuFpKtE5lu3aqTu1ucm8=
+=======
+			usd8F9APeUmqdYgEDQbBd6heMlU=
+>>>>>>> e90dc36219ff2d7ed079e04457d6bfda53a67ec1
 			</data>
 			<key>optional</key>
 			<true/>
@@ -35,7 +39,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< HEAD
 			L3nZrYwcPQNaF90ulCHWmo76UStwOn0JsPaqkjoDVYw=
+=======
+			zF5ZYWkgsTAyMZG5uzJhYmNUJqKxAUU7GtmY2DCYKM8=
+>>>>>>> e90dc36219ff2d7ed079e04457d6bfda53a67ec1
 			</data>
 			<key>optional</key>
 			<true/>
@@ -54,11 +62,22 @@
 			guW3/93nl+OPiRUKYk6iuEiDt0+RIa8udnvZuYrhImE=
 			</data>
 		</dict>
+		<key>Windows/Document Converter.4DX</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+<<<<<<< HEAD
+			Kpc3I93Vga5spg7JXiHYklNgDxZbZj/+1U/VqhfLZZw=
+=======
+			ZCCEqtPmUM+2iJDxTvuZrd5mchV7dH5Z4RZvNF7YQT0=
+			</data>
+		</dict>
 		<key>Windows64/Document Converter.4DX</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kpc3I93Vga5spg7JXiHYklNgDxZbZj/+1U/VqhfLZZw=
+			xZ0isPdvytfz/ISMhvmTet0RKxwRCg6HeDepN7N2icI=
+>>>>>>> e90dc36219ff2d7ed079e04457d6bfda53a67ec1
 			</data>
 		</dict>
 	</dict>
